@@ -1,4 +1,4 @@
-# Fake Database which stores collection of documents
+# Fake database to mock REST API
 
 ## When do I need this?
 
