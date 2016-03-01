@@ -7,14 +7,14 @@ Fake Database could be usefule for mocking REST API during development of an app
 ## Example
 
 ```js
-var fs = require('fs');
-var path = require('path');
-
 var express = require('express');
 var app = express();
 
-var defaultData = JSON.parse(fs.readFileSync(path.join(__dirname, 'todos.json'), 'utf-8'));
-var db = new (require('fakedb'))(defaultData);
+var FakeDB = require('fake-db');
+var db = new FakeDB([
+    {title: 'foo'},
+    {title: 'bar'}
+]);
 
 app.get('/api/todos', function(req, res) {
   db.getCollection().then(function(collection) {
