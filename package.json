@@ -1,0 +1,15 @@
+{
+  "name": "fake-db",
+  "version": "1.0.0",
+  "description": "Fake database to mock REST API",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests/spec.js"
+  },
+  "author": "Viktor Karpov <viktor.s.karpov@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  }
+}
