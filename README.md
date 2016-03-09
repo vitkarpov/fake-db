@@ -2,7 +2,7 @@
 
 ## When do I need this?
 
-Fake Database could be usefule for mocking REST API during development of an application. Check out REST API for [TodoMVC app](https://github.com/todomvc-js-course/backbone-express-commonjs)
+Fake Database could be usefule for mocking REST API during development of an application. Check out [REST API for TodoMVC app](https://github.com/todomvc-js-course/backbone-express-commonjs/blob/master/server/index.js#L14-L36)
 
 ## Example
 
